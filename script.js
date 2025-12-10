@@ -1,5 +1,6 @@
 let redCount = 0;
 let blueCount = 0;
+let yellowCount = 0;
 
 document.getElementById("redBtn").addEventListener("click", () => {
   redCount++;
