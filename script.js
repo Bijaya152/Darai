@@ -12,3 +12,8 @@ document.getElementById("blueBtn").addEventListener("click", () => {
   document.getElementById("message").innerText =
     "青ボタンを " + blueCount + " 回押しました";
 });
+document.getElementById("blueBtn").addEventListener("click", () => {
+  blueCount++;
+  document.getElementById("message").innerText =
+    "黄色ボタンを " + yellowCount + " 回押しました";
+});
